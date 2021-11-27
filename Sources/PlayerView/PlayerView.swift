@@ -49,7 +49,7 @@ open class PlayerView: UIView {
     open var timeObserver: Any?
     
     /// 协议
-    weak var delegate: PlayerViewProtocol?
+    open weak var delegate: PlayerViewProtocol?
     
     // MARK: - Event
     
